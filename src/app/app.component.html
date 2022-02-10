@@ -1,0 +1,23 @@
+<div class="controls">
+  <div class="dropdownlist">
+    <br>
+    <ejs-dropdownlist #dropdownlistelement  [dataSource]='localData' [fields]='dataFields'         
+      placeholder='Select a game'>   
+     </ejs-dropdownlist>
+  </div>
+  <div id="button-controls">
+    <div class="button_add">
+      <button ej-button id='addbutton' class="e-control e-btn"
+      (click)="onAddItems()"> Add </button>
+    </div>
+    <div class="button_clear">
+      <button ej-button id='clearbutton' class="e-control e-btn"
+      (click)="onClearItems()"> Clear </button>
+    </div>
+    <div class="button_remove">
+      <button ej-button id='removebutton' class="e-control e-btn"
+      (click)="onRemoveItems()"> Remove </button>
+    </div>  
+  </div>    
+</div>
+
